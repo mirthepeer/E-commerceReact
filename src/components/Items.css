@@ -136,6 +136,11 @@ section {
 
     
 }
+.addToCart-btn{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
 
 .qty{
     display: flex;

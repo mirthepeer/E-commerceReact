@@ -38,8 +38,8 @@ function PlusMinus(props) {
      <div className="btn__container">
        <button onClick={add} className="control__btn">+</button>
        <button onClick={subtract} className="control__btn" >-</button>
-       <button onClick={handClick}>Add to Cart</button>
-     </div>
+       </div>
+       <button className='addToCart-btn' onClick={handClick}>Add to Cart</button>
    </div></div>
     
 );
