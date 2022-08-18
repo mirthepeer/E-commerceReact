@@ -11,6 +11,8 @@ function App() {
   
   const [Products, setProducts] = useState([]) 
 
+  const [total, setTotal] = useState(0)
+
 
     useEffect(() => {
       async function fetchData(){ 
