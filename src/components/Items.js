@@ -6,17 +6,22 @@ import PlusMinus from './PlusMinus'
 
 
 function Items(props) {
+
+
+  
+
+
      return (
       <div className="card">
       <img src={props.items.image} className="card--image" />
       <p className="card--title">{props.items.title}</p>
-      <p className="card--price"><span className="bold"> ${props.items.price}</span> </p>
-      <PlusMinus />
-
+      
+      
+      <PlusMinus price={props.items.price} />
       
       
       
-      <button>Add to Cart</button>
+      
       
   </div>
 )

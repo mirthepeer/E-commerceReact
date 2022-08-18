@@ -40,7 +40,7 @@ function App() {
   return (
    
    <div className='main-container'>
-     <Navbar />
+     <Navbar total={total} caltotal ={setTotal} />
      <div className='boxes'>
      {currentProd}
   
