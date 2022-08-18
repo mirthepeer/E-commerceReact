@@ -135,7 +135,29 @@ section {
     flex-wrap: wrap;
 }
 
-.nav-items{
+.btn__container{
+    display: flex;
+    justify-content: center;
+    border:
     
-   
+
+    
+}
+
+.qty{
+    display: flex;
+    justify-content: center;
+
+}
+
+.counter__output{
+    display: flex;
+    justify-content: center;
+
+}
+.control__btn{
+    
+    border-radius: 50%;
+    display: flex;
+    margin: 5px;
 }

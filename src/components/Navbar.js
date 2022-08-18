@@ -11,7 +11,8 @@ export default function Navbar() {
             </div>
             <div className="nav-items">
             <ul>
-                <li>About</li>
+                <li><a href="">About</a></li>
+                <li>Login</li>
                 <li>Catagories</li>
                 <li>Cart ($0)</li>
             </ul>
