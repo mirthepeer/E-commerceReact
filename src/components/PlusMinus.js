@@ -30,8 +30,8 @@ function PlusMinus(props) {
   
     return (
     <div>
-      {counter===1 && <p className="card--price"><span className="bold">${props.price} </span> </p> }
-      {counter>1 &&  <p className="card--price"><span className="bold"> {`$${props.price} x ${counter} = $${props.price*counter}`} </span> </p>}
+      {counter===1 && <p className="card--price"><span className="bold">{Math.round((props.price + Number.EPSILON) * 100) / 100} </span> </p> }
+      {counter>1 &&  <p className="card--price"><span className="bold"> {`$${props.price} x ${counter} = $${Math.round(((props.price*counter) + Number.EPSILON) * 100) / 100}`} </span> </p>}
       <div className="counter">
     <div className='qty'><small>Quantity</small></div> 
      <span className="counter__output">{counter}</span>
